@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Practice</title>
+</head>
+
+<body>
+    <div style="background-color: rgb(42, 130, 165);" class="container-3">
+        <h1>Try Your Luck Mate!!</h1>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="paper" src="paper.jpg" height=300 width=300 alt="" onclick="rpsGame(this)">
+            <img id="rock" src=" rock.jpg " height=300 width=300 alt=" " onclick="rpsGame(this)">
+            <img id="scissors" src=" scissor.jpg " height=300 width=300 alt=" " onclick="rpsGame(this)">
+        </div>
+
+    </div>
+    <div style="background-color: rgb(141, 111, 46);" class=" container-4 ">
+        <h1 id="change-my-color">This is the place where all the magic occurs!!</h1>
+        <div class='flex-box-infinity'>
+
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                <option value="random"> okiee</option>
+                <option value="red">dockieee</option>
+                <option value="green">monkooo</option>
+                <option value="reset"> trrrrr </option>
+                </select>
+            </form>
+
+            <button class='btn btn-primary'> WWEEE!!</button>
+            <button class='btn btn-warning'>YAHOO!!</button>
+            <button class='btn btn-danger'>YIPEE!!</button>
+            <button class='btn btn-success'>WOHOO!!</button>
+
+        </div>
+
+
+
+
+        <script src=" code.js "></script>
+</body>
+
+</html>
+
+</html>
